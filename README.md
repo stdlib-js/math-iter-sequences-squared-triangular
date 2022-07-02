@@ -91,7 +91,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.iterSquaredTriangularSeq;
+})();
 })();
 </script>
 ```
@@ -181,6 +183,7 @@ var bool = it.next().done;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-squared-triangular@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 // Create an iterator:
 var opts = {
@@ -198,6 +201,7 @@ while ( true ) {
     console.log( v.value );
 }
 
+})();
 })();
 </script>
 </body>
@@ -303,11 +307,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [squared-triangular-number]: https://en.wikipedia.org/wiki/Squared_triangular_number
 
-[@stdlib/math/base/special/binomcoef]: https://github.com/stdlib-js/math-base-special-binomcoef/tree/umd
+[@stdlib/math/base/special/binomcoef]: https://github.com/stdlib-js/math-base-special-binomcoef/tree/umd/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/math/iter/sequences/triangular]: https://github.com/stdlib-js/math-iter-sequences-triangular/tree/umd
+[@stdlib/math/iter/sequences/triangular]: https://github.com/stdlib-js/math-iter-sequences-triangular/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
