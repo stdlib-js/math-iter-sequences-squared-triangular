@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/squared-triangular"
-click B href "https://github.com/stdlib-js/math-iter-sequences-squared-triangular/tree/main"
-click C href "https://github.com/stdlib-js/math-iter-sequences-squared-triangular/tree/production"
-click D href "https://github.com/stdlib-js/math-iter-sequences-squared-triangular/tree/esm"
-click E href "https://github.com/stdlib-js/math-iter-sequences-squared-triangular/tree/deno"
-click F href "https://github.com/stdlib-js/math-iter-sequences-squared-triangular/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/squared-triangular"
+%% click B href "https://github.com/stdlib-js/math-iter-sequences-squared-triangular/tree/main"
+%% click C href "https://github.com/stdlib-js/math-iter-sequences-squared-triangular/tree/production"
+%% click D href "https://github.com/stdlib-js/math-iter-sequences-squared-triangular/tree/esm"
+%% click E href "https://github.com/stdlib-js/math-iter-sequences-squared-triangular/tree/deno"
+%% click F href "https://github.com/stdlib-js/math-iter-sequences-squared-triangular/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/squared-triangular
