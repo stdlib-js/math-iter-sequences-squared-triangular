@@ -32,10 +32,14 @@ The [squared triangular numbers][squared-triangular-number] are the integer sequ
 
 <!-- <equation class="equation" label="eq:squared_triangular_numbers_sequence" align="center" raw="0, 1, 9, 36, 100, 225, 441, 784, 1296, 2025, 3025, 4356, \ldots" alt="Triangular number sequence"> -->
 
-<div class="equation" align="center" data-raw-text="0, 1, 9, 36, 100, 225, 441, 784, 1296, 2025, 3025, 4356, \ldots" data-equation="eq:squared_triangular_numbers_sequence">
+```math
+0, 1, 9, 36, 100, 225, 441, 784, 1296, 2025, 3025, 4356, \ldots
+```
+
+<!-- <div class="equation" align="center" data-raw-text="0, 1, 9, 36, 100, 225, 441, 784, 1296, 2025, 3025, 4356, \ldots" data-equation="eq:squared_triangular_numbers_sequence">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@ffa1a1acab2d2c9973d3ad22a5dfc25afd86767a/lib/node_modules/@stdlib/math/iter/sequences/squared-triangular/docs/img/equation_squared_triangular_numbers_sequence.svg" alt="Triangular number sequence">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -45,10 +49,14 @@ starting at the 0th [squared triangular number][squared-triangular-number].
 
 <!-- <equation class="equation" label="eq:triangular_numbers" align="center" raw="T_n = \sum_{i=1}^{n} i = 1 + 2 + 3 + \ldots + n = \frac{n(n+1)}{2} = \binom{n+1}{2}" alt="Triangular number formulas"> -->
 
-<div class="equation" align="center" data-raw-text="T_n = \sum_{i=1}^{n} i = 1 + 2 + 3 + \ldots + n = \frac{n(n+1)}{2} = \binom{n+1}{2}" data-equation="eq:triangular_numbers">
+```math
+T_n = \sum_{i=1}^{n} i = 1 + 2 + 3 + \ldots + n = \frac{n(n+1)}{2} = \binom{n+1}{2}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="T_n = \sum_{i=1}^{n} i = 1 + 2 + 3 + \ldots + n = \frac{n(n+1)}{2} = \binom{n+1}{2}" data-equation="eq:triangular_numbers">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@ffa1a1acab2d2c9973d3ad22a5dfc25afd86767a/lib/node_modules/@stdlib/math/iter/sequences/squared-triangular/docs/img/equation_triangular_numbers.svg" alt="Triangular number formulas">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -62,14 +70,30 @@ The nth [squared triangular number][squared-triangular-number] is the nth [trian
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-iter-sequences-squared-triangular
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import iterSquaredTriangularSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-squared-triangular@deno/mod.js';
+var iterSquaredTriangularSeq = require( '@stdlib/math-iter-sequences-squared-triangular' );
 ```
 
 #### iterSquaredTriangularSeq( \[options] )
@@ -151,7 +175,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterSquaredTriangularSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-squared-triangular@deno/mod.js';
+var iterSquaredTriangularSeq = require( '@stdlib/math-iter-sequences-squared-triangular' );
 
 // Create an iterator:
 var opts = {
@@ -205,7 +229,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -249,7 +273,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -269,11 +293,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [squared-triangular-number]: https://en.wikipedia.org/wiki/Squared_triangular_number
 
-[@stdlib/math/base/special/binomcoef]: https://github.com/stdlib-js/math-base-special-binomcoef/tree/deno
+[@stdlib/math/base/special/binomcoef]: https://github.com/stdlib-js/math-base-special-binomcoef
 
 <!-- <related-links> -->
 
-[@stdlib/math/iter/sequences/triangular]: https://github.com/stdlib-js/math-iter-sequences-triangular/tree/deno
+[@stdlib/math/iter/sequences/triangular]: https://github.com/stdlib-js/math-iter-sequences-triangular
 
 <!-- </related-links> -->
 
