@@ -88,7 +88,7 @@ The nth [squared triangular number][squared-triangular-number] is the nth [trian
 ## Usage
 
 ```javascript
-import iterSquaredTriangularSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-squared-triangular@deno/mod.js';
+import iterSquaredTriangularSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-squared-triangular@v0.1.0-deno/mod.js';
 ```
 
 #### iterSquaredTriangularSeq( \[options] )
@@ -170,7 +170,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterSquaredTriangularSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-squared-triangular@deno/mod.js';
+import iterSquaredTriangularSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-squared-triangular@v0.1.0-deno/mod.js';
 
 // Create an iterator:
 var opts = {
